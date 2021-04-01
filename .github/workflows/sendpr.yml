@@ -22,7 +22,8 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Generate codemeta.json
-        run: echo "{ 'dummy': True }" > codemeta.json
+        run: |
+          echo '{ "dummy": true }' > codemeta.json
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3.8.2
