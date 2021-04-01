@@ -34,4 +34,4 @@ jobs:
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           labels: automated pr
           branch: add-codemeta
-          reviewer: ${{ github.repository_owner }}
+          reviewers: ${{ github.repository_owner }}
